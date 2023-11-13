@@ -1,0 +1,68 @@
+.mainDiv {
+  margin-left: 10px;
+  padding: 30px;
+  display: block;
+  align-items: flex-start;
+  width: 50%;
+}
+
+.image_title {
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+  font-weight: 700;
+  color: #001b39;
+}
+
+.price_button {
+  display: flex;
+  justify-content: space-between;
+  color: #282828;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.upper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.upper > div:nth-child(1) {
+  width: 25%;
+}
+
+.desc {
+  display: block;
+  width: 100%;
+}
+
+.heading {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.heading > p:nth-child(1) {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.heading > p:nth-child(2) {
+  padding: 5px;
+  background-color: #eeeeee;
+}
+
+.features {
+  padding: 20px;
+}
+
+.lower p {
+  font-size: 18px;
+  font-weight: 600;
+}
+.lower {
+  display: flex;
+  margin-top: 30px;
+  justify-content: space-between;
+}

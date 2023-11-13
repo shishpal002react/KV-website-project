@@ -1,0 +1,37 @@
+/* #container {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+#container > div{
+    border: 1px solid #001B39;
+    margin: 10px;
+}
+
+ */
+
+#heading {
+  margin-top: 40px;
+  display: block;
+  align-items: center;
+  font-weight: 300;
+  color: #001b39;
+  font-size: 15px;
+  width: 80%;
+  margin-left: 5%;
+}
+
+#accordion {
+  display: block;
+  margin: 100px;
+}
+
+.accordionItem {
+  width: 100%;
+  margin: 20px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}

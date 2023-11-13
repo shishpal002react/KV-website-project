@@ -1,0 +1,20 @@
+.fixedDiv{
+    display: block;
+    position: fixed;
+    align-items: center;
+    width: 300px;
+    height: 380px;
+    right: 20px;
+    top: 150px;
+    background-color: #FFFFFF;
+    color: black;
+    border-radius: 20px;
+    padding: 10px;
+    box-shadow: rgba(165, 79, 79, 0.24) 0px 3px 8px;
+}
+
+.fixedDiv button{
+    width: 100%;
+    background-color: #001B39;
+    color: #FFFFFF;
+}

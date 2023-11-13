@@ -1,0 +1,149 @@
+.topBar {
+  display: flex;
+  justify-content: space-between;
+  width: 73%;
+  background-color: #e7e7e7;
+  padding: 20px;
+  border-radius: 10px;
+  font-weight: 500;
+}
+
+.topBar > p:hover {
+  cursor: pointer;
+}
+
+.heading {
+  margin: 20px;
+  font-weight: 700;
+  font-size: 20px;
+  color: #001b39;
+}
+
+.relatedBlogs {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.relatedBlogs > img {
+  margin: 10px;
+  width: 200px;
+  height: 150px;
+}
+.serviceTypes {
+  /* display: flex;
+  justify-content: space-between; */
+  margin: 20px;
+  display: block;
+  width: 70%;
+}
+
+.serviceTypesTop {
+  display: flex;
+  /* justify-content: space-between; */
+}
+.serviceTypesTop > div > div {
+  margin: 20px;
+}
+
+.serviceTypesTop > div:nth-child(1) > img {
+  margin-top: 30px;
+}
+
+.serviceTypesData {
+  /* display: flex; */
+  /* justify-content: space-between; */
+  width: 80%;
+}
+
+.title {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.title > p:nth-child(1) {
+  font-weight: 700;
+  font-size: 20px;
+  color: #001b39;
+}
+
+.title > p:nth-child(2) {
+  background-color: #e7e7e7;
+  padding: 5px;
+}
+
+.warranty {
+  display: flex;
+  gap: 15px;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.features {
+  display: grid;
+  /* column-gap: 20%; */
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.features > * {
+  margin: 5px;
+  padding: 5px;
+  /* background-color: #e7e7e7; */
+  border-radius: 10px;
+}
+
+.features > p > spam {
+  padding-left: 10px;
+}
+
+.serviceTypesBottom {
+  display: flex;
+  justify-content: space-between;
+}
+
+.serviceTypesPrice > p {
+  width: 192px;
+}
+
+.serviceTypesPrice > p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.serviceTypesBottom > button {
+  margin-left: 60%;
+  padding: 5px 10px 5px 10px;
+  color: #001b39;
+  border: 1px solid #001b39;
+  margin-bottom: 10px;
+}
+
+.serviceTypesBottom > button {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+}
+
+/*fixed div style*/
+
+.fixedDiv {
+  display: block;
+  position: fixed;
+  align-items: center;
+  width: 300px;
+  height: 380px;
+  right: 20px;
+  top: 150px;
+  background-color: #f1efef;
+  color: black;
+  border-radius: 20px;
+  padding: 10px;
+  box-shadow: rgba(146, 80, 80, 0.24) 10px 10px 10px 10px;
+}
+
+.fixedDiv button {
+  width: 100%;
+  background-color: #001b39;
+  color: #ffffff;
+}

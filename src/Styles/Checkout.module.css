@@ -1,0 +1,124 @@
+.checkout{
+    padding: 20px;
+    height: 120vh;
+}
+
+.checkout > header{
+    font-weight: 700;
+    font-size: 25px;
+    color : #001B39;
+}
+
+.title{
+    font-weight: 700;
+    font-size: 25px;
+    color: #001B39;
+}
+
+.days{
+    display: flex;
+    width : 60%;
+    align-items: center;
+}
+
+.days > div{
+    margin: 20px;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    padding-top: 2%;
+    border-radius: 20px;
+    background-color: #E7E7E7;
+    color : #000000;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.timeslots{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    width : 50%;
+}
+
+.timeslots>div{
+    margin: 20px;
+    padding: 10px;
+    background-color: #E7E7E7;
+    color : #000000;
+    font-weight: 700;
+    font-size: 20px;
+    border-radius: 20px;
+}
+
+.cart{
+    position: absolute;
+    top:200px;
+    right: 100px;
+}
+
+.cart > header{
+    font-size: 25px;
+    font-weight: 700;
+    color: #001B39;
+}
+
+.cart > p{
+    font-weight: 500;
+    font-size: 25px;
+    color : #0DA500;
+}
+
+.items > div{
+    margin: auto;
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #E7E7E7;
+    color : #000000;
+}
+
+.items > div >p{
+    margin: 10px;
+    font-weight: 500;
+}
+
+.items > div > div{
+    display : flex;
+    justify-content: space-around;
+    gap: 5px;
+    align-items: center;
+}
+
+.items Button{
+    border-radius: 50%;
+}
+
+.coupoun{
+    background-color: #E7E7E7;
+    border-radius: 10px;
+    width : 100%;
+}
+
+.bill{
+    margin: 30px 0px 30px 0px;
+}
+.bill>p{
+    font-size: 15px;
+    font-weight: 500;
+}
+.bill > div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.checkoutbtn{
+    width : 100%;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #001B39;
+    color : white;
+}

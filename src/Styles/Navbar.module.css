@@ -1,0 +1,15 @@
+.navbar{
+    display : flex;
+    align-items: center;
+    background-color: #1A1A1A;
+    color : white;
+}
+
+.navbar > *{
+    margin: 10px;
+}
+
+.navbar>select{
+    background-color: #1A1A1A;
+    color: white;
+}

@@ -1,0 +1,29 @@
+#mainDiv{
+    margin: 10px;
+}
+
+#images{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#images > img{
+    width: 400px;
+    height: 200px;
+}
+
+#carousal{
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+}
+
+.arrows{
+    margin: 5px;
+    padding: 10px 15px 10px 15px;
+    border-radius: 50%;
+    border : 2px solid #001B39;
+}

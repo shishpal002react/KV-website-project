@@ -1,0 +1,370 @@
+#mainbox {
+    margin: 0px;
+}
+
+#top {
+    background-image: url("../images/Rectangle14.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: block;
+    padding: 30px;
+    height: 85vh;
+    color: white;
+}
+
+#navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+#leftnav {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+#leftnav>img {
+    width: 70px;
+}
+
+#leftnav header {
+    font-family: Alumni Sans Inline One;
+    font-weight: 400;
+    font-size: 32px;
+}
+
+#location {
+    width: 19px;
+    height: 19px;
+}
+
+/* #location+select {
+    width: 129px;
+    background-color: rgb(46, 12, 12);
+    color: #FFFFFF;
+    border: none;
+    padding: 5px;
+    border-radius: 3px;
+} */
+.selectLoc {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#left {
+    display: block;
+}
+
+#leftDiv1{
+    margin-top: 50px;
+}
+
+#leftDiv1para1 {
+    font-size: 32px;
+    font-weight: 600;
+}
+
+#leftDiv1para2 {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+#leftDiv2 {
+    margin-top: 50px;
+    width: 60%;
+}
+
+#leftDiv2>p {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+#reviews {
+    display: flex;
+    margin-top: 50px;
+    
+}
+
+#reviews>div {
+    display: flex;
+    align-items: center;
+}
+
+#reviews div {
+    margin: 10px;
+}
+
+#rightnav {
+    display: flex;
+    width: 304.84px;
+    height: 40.89px;
+    gap: 25px;
+    margin-top: 20px;
+}
+
+#right {
+    display: block;
+    position: fixed;
+    align-items: center;
+    width: 300px;
+    height: 380px;
+    right: 40px;
+    top: 100px;
+    background-color: #FFFFFF;
+    color: black;
+    border-radius: 20px;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+#right select {
+    display: block;
+    width: 100%;
+    padding: 5px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+#right input {
+    display: block;
+    width: 95%;
+    padding: 5px;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+
+#checkPrice {
+    padding: 3px 19px 3px 19px;
+    border-radius: 10px;
+    margin-top: 20px;
+    color: #FFFFFF;
+    background-color: #001B39;
+    width: 100%;
+}
+
+#menu {
+    margin: 20px;
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+#menu>p:hover {
+    font-weight: 500;
+    cursor: pointer;
+    color: #001B39;
+    text-decoration: underline;
+}
+
+#heading {
+    width: 70%;
+    margin: 20px;
+}
+
+#headingPara1 {
+    font-size: 20px;
+    font-weight: 700;
+    color: #001B39;
+}
+
+#headingPara2 {
+    font-size: 16px;
+    font-weight: 400;
+    color: #4A4A4A;
+}
+
+
+
+#services {
+    margin: 20px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    background-color: #EEEEEE;
+    border-radius: 20px;
+    width: 70%;
+    align-items: center;
+}
+
+#services>div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 20px;
+    align-items: center;
+}
+#services>div>*{
+    margin: 5px;
+}
+
+#services p {
+    font-size: 15px;
+    font-weight: 600;
+    color: black;
+}
+
+#posters {
+    display: flex;
+    width: 70%;
+    margin: 20px;
+}
+
+#posters>img {
+    margin: 10px;
+    width: 192px;
+    height: 187px;
+}
+
+#curatedservicesDiv {
+    margin: 20px;
+    width: 70%;
+}
+
+#curatedservicesDiv>p {
+    color: #001B39;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+#curatedservices {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+#curatedservices>div {
+    margin: 30px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#curatedservices img{
+    width: 100px;
+}
+
+#workshop {
+    margin: 20px;
+    width: 70%;
+}
+
+#workshop>p {
+    color: #001B39;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 10px 20px 20px 0px;
+}
+
+#workshop>div {
+    display: flex;
+    gap: 20px;
+}
+
+#serviceworksDiv {
+    margin: 20px;
+}
+
+#serviceworksDiv>p {
+    color: #001B39;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+#serviceworks {
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 60%;
+}
+
+#serviceworks >div{
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#serviceworks img {
+    width: 165px;
+}
+
+#serviceworks p {
+    color: #001B39;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+#userSayDiv {
+    margin: 20px;
+}
+
+#userSayDiv>p {
+    color: #001B39;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+@media all and (min-width: 320px) and (max-width : 767px){
+    #top{
+        height: 80vh;
+    }
+
+    #right {
+        display: block;
+        position: fixed;
+        align-items: center;
+        width: 200px;
+        height: 280px;
+        right: 20px;
+        top: 700px;
+        background-color: #FFFFFF;
+        color: black;
+        border-radius: 20px;
+        padding: 10px;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    }
+
+    #services{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    #menu{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    #curatedservices{
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    #serviceworks{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+@media all and (max-width : 319px){
+    #top{
+        height: 70vh;
+    }
+
+    #services{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    #menu{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    #curatedservices{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    #serviceworks{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
